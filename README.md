@@ -69,3 +69,83 @@ Build a classification model to predict heart disease risk based on health featu
 ---
 
 
+
+#  Advanced Tasks
+
+These advanced tasks demonstrate practical applications of **machine learning, deep learning, and large language models (LLMs)** across different domains. Each task is designed to strengthen skills in real-world scenarios such as support automation, multimodal learning, and production-ready pipelines.
+
+---
+
+### **Task 2: End-to-End ML Pipeline with Scikit-learn Pipeline API**
+
+**Objective:**
+Build a reusable and production-ready machine learning pipeline for predicting customer churn.
+
+**Dataset:**
+Telco Churn Dataset
+
+**Instructions:**
+
+* Implement preprocessing steps (scaling, encoding) using `Pipeline`
+* Train models like Logistic Regression and Random Forest
+* Use `GridSearchCV` for hyperparameter tuning
+* Export the complete pipeline using `joblib`
+
+**Skills Gained:**
+
+* ML pipeline construction
+* Hyperparameter tuning with GridSearch
+* Model export and reusability
+* Production-readiness practices
+
+---
+
+### **Task 3: Multimodal ML – Housing Price Prediction Using Images + Tabular Data**
+
+**Objective:**
+Predict housing prices using both structured data and house images.
+
+**Dataset:**
+Housing Sales Dataset + Custom/Public Image Dataset
+
+**Instructions:**
+
+* Use CNNs to extract features from images
+* Combine extracted image features with tabular data
+* Train a regression model on fused features
+* Evaluate using **MAE** and **RMSE**
+
+**Skills Gained:**
+
+* Multimodal machine learning
+* Convolutional Neural Networks (CNNs)
+* Feature fusion (image + tabular)
+* Regression modeling and evaluation
+
+---
+
+### **Task 5: Auto Tagging Support Tickets Using LLM**
+
+**Objective:**
+Automatically tag support tickets into categories using a large language model (LLM).
+
+**Dataset:**
+Free-text Support Ticket Dataset
+
+**Instructions:**
+
+* Use prompt engineering or fine-tuning with an LLM
+* Compare zero-shot vs. fine-tuned performance
+* Apply few-shot learning techniques for higher accuracy
+* Output top 3 most probable tags per ticket
+
+**Skills Gained:**
+
+* Prompt engineering
+* LLM-based text classification
+* Zero-shot and few-shot learning
+* Multi-class prediction and ranking
+
+---
+
+
